@@ -1,0 +1,115 @@
+PLACEMUX PREP 
+MERN FULL STACK DEVELOPER 
+ASSESSMENT 
+OVERVIEW 
+MERN Full Stack Developer builds complete features from database to UI, owning the entire feature lifecycle. 
+3 Progressive Tasks: 
+•​
+Task 1 (Easy): Build simple todo app with MERN (4 hours) 
+•​
+Task 2 (Medium): Build job marketplace feature (5 hours) 
+•​
+Task 3 (Hard): Build complete learning feature with real-time (6 hours) 
+TASK 2: JOB MARKETPLACE FEATURE 
+(Medium) 
+Duration: 5 hours | Difficulty: Intermediate 
+Problem Statement 
+Build complete job marketplace: companies post jobs, students apply, see match percentage. 
+Requirements 
+•​
+Database: 5 collections (companies, jobs, students, applications, skills) 
+•​
+Backend: 12+ endpoints (CRUD for jobs, applications, search, filter) 
+•​
+Frontend: Job listing, job detail, apply form, my applications 
+•​
+Matching: Calculate skill match percentage 
+•​
+Search: Filter by location, salary, job type 
+•​
+Authentication: Basic JWT auth 
+•​
+Validation: Input validation on all endpoints 
+Database Schema 
+•​
+jobs: title, description, company, salary, location, required_skills, posted_date 
+•​
+students: name, email, skills array, levels 
+•​
+applications: student, job, status, applied_date 
+•​
+companies: name, description, location 
+Backend Endpoints 
+•​
+POST /jobs - Create job (company only) 
+•​
+GET /jobs - List jobs with filters 
+•​
+GET /jobs/:id - Get job detail 
+•​
+POST /applications - Apply for job 
+•​
+GET /applications - List my applications 
+•​
+PUT /applications/:id - Update application status 
+Frontend Pages 
+•​
+Job Listing: Search, filter, skill match indicator 
+•​
+Job Detail: Full description, apply button 
+•​
+Apply Form: Submit application 
+•​
+My Applications: List status of applications 
+Tech Stack 
+•​
+Backend: Node.js, Express, MongoDB, Mongoose 
+•​
+Frontend: React, React Router, Axios 
+•​
+Auth: JWT 
+•​
+Testing: Jest, Supertest, React Testing Library 
+Deliverables 
+•​
+backend/ (complete API) 
+•​
+frontend/ (complete UI) 
+•​
+DATABASE_SCHEMA.md 
+•​
+API_DOCUMENTATION.md 
+•​
+tests/ (backend + frontend tests) 
+Evaluation Rubric 
+Criteria 
+Weight 
+Excellent 
+Good 
+Score 
+Feature 
+Completeness 
+25% 
+All features working 
+Missing features 
+__ 
+Database Design 
+20% 
+Proper schema, relationships Poor design 
+__ 
+API Quality 
+20% 
+Clean RESTful API 
+Inconsistent endpoints 
+__ 
+Frontend UI 
+20% 
+Clean, responsive, intuitive 
+Basic UI 
+__ 
+Testing 
+15% 
+Good test coverage 
+Minimal tests 
+__ 
+ 
